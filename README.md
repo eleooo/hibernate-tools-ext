@@ -53,6 +53,8 @@
 				</execution>
 			</executions>
 			<configuration>
+				<revengStrategy>com.github.hibernate.tools.ext.HbmStrategy</revengStrategy>
+				<packageName>cn.edu.sysu.oa.supervise.repository</packageName>
 				<outputDirectory>src/main/java</outputDirectory>
 				<propertyFile>src/test/resources/hbm2java.properties
 				</propertyFile>
